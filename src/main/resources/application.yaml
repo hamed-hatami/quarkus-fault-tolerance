@@ -1,0 +1,7 @@
+quarkus:
+  banner:
+    enabled: false
+  rest-client:
+    external-api:
+      url: "http://localhost:9090/api/"
+      scope: "jakarta.inject.Singleton"
